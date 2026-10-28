@@ -1,0 +1,20 @@
+{
+  "name": "asmae-bouhlal-app",
+  "version": "0.1.0",
+  "description": "Demo Hono service deployed to k3s through GitOps",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.0",
+    "hono": "^4.13.0"
+  },
+  "license": "MIT"
+}

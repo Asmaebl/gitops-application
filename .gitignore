@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log*
+.env
+.DS_Store
+
+# Local setup files
+node_modules_old_windows/
+get-docker.sh
