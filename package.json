@@ -1,5 +1,5 @@
 {
-  "name": "asmae-bouhlal-app",
+  "name": "gitops-application",
   "version": "0.1.0",
   "description": "Demo Hono service deployed to k3s through GitOps",
   "type": "module",

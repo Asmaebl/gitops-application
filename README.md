@@ -540,7 +540,7 @@ Git remains the source of truth for the cluster.
 For example, changing the live replica count manually introduces configuration drift:
 
 ```bash
-kubectl scale deployment asmae-bouhlal --replicas=1
+kubectl scale deployment gitops-application --replicas=1
 ```
 
 When Git still declares two replicas, the active GitOps controller detects the difference and restores the desired state automatically.
